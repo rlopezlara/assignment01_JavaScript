@@ -1,0 +1,127 @@
+/* General Styling */
+html{
+    background-color: yellow;
+    margin-left: 5%;
+}
+/* adding a font family */
+h1, p, h2, button{
+    font-family: 'Inter', sans-serif;
+}
+
+.firstpart{
+    display: flex;
+}
+.outputtext{
+    padding: 13%;
+}
+/* show button styling  */
+.outputtext p{
+    font-size: 1.8em;
+    color: purple;
+    text-shadow: 2px 2px 2px white;
+    text-decoration: underline;
+}
+/* create a buttons styling for selection  */
+#noun1{
+    padding: 20px 15px;
+    border-radius: 80%;
+    background-color: blueviolet;
+    color: #f4f4f4;
+    font-size: 1.0em;
+    }
+#verb{
+    padding: 20px 15px;
+    border-radius: 70%;
+    background-color: rgb(44, 61, 160);
+    color: #f4f4f4;
+    font-size: 1.0em;
+    
+}
+#adjective{
+    padding: 20px 15px;
+    border-radius: 70%;
+    background-color: rgb(11, 137, 9);
+    color: #f4f4f4;
+}
+
+#noun2{
+    padding: 20px 15px;
+    border-radius: 70%;
+    background-color: rgb(168, 115, 9);
+    color: #f4f4f4;
+}
+
+#setting{
+    padding: 20px 15px;
+    border-radius: 70%;
+    background-color: palevioletred;
+    color: #f4f4f4;
+}
+#playback{
+    padding: 15px 15px;
+    border-radius: 70%;
+    background-color: rgb(37, 137, 167);
+    color:#f4f4f4;
+}
+/* random button */
+#random{
+    padding: 15px 15px;
+    border-radius: 70%;
+    background-color: rgb(184, 64, 56);
+    color:#f4f4f4;
+}
+/* restart button */
+#restart{
+    padding: 15px 15px;
+    border-radius: 70%;
+    background-color: #f4f4f4;
+    color:black;
+    margin-right: 5%;
+}
+#lastpart{
+    display: flex;
+    
+}
+#lastpart  button{
+    margin-left: 5%;
+}
+.allbuttons{
+    display: flex;
+    margin-top: 5%;
+        
+}
+.lastbuttons button{
+    margin-left: 5%;
+}
+/* paragraph styling  */
+#choosenNoun1{
+    margin-left: 8%;
+    color: purple;
+    font-weight: 800;
+    font-size: 1.0em;
+}
+#choosenVerb{
+    margin-left: 10%;
+    color: lightskyblue;
+    font-weight: 800;
+    font-size: 1.0em;
+}
+#choosenAdjective{
+    margin-left: 10%;
+    color: lightgreen;
+    font-weight: 800;
+    font-size: 1.0em;
+}
+#choosenNoun2{
+    margin-left: 10%;
+    color: orange;
+    font-weight: 800;
+    font-size: 1.0em;
+}
+#choosenSetting{
+    margin-left: 10%;
+    color: palevioletred;
+    font-weight: 800;
+    font-size: 1.0em;
+}
+/* ends */
